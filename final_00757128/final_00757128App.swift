@@ -13,8 +13,10 @@ struct final_00757128App: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
+            //ContentView()
+            //    .environment(\.managedObjectContext, persistenceController.container.viewContext)
+            tmpContentView()
+                  .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
 }

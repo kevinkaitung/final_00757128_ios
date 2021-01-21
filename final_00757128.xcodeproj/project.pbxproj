@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,7 +13,56 @@
 		451B0F1B2589EBE2005A0EE7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 451B0F1A2589EBE2005A0EE7 /* Preview Assets.xcassets */; };
 		451B0F1D2589EBE2005A0EE7 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451B0F1C2589EBE2005A0EE7 /* Persistence.swift */; };
 		451B0F202589EBE2005A0EE7 /* final_00757128.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 451B0F1E2589EBE2005A0EE7 /* final_00757128.xcdatamodeld */; };
+		451B0F29258A01A4005A0EE7 /* tourPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451B0F28258A01A4005A0EE7 /* tourPage.swift */; };
+		451B0F2D258A01C9005A0EE7 /* tourDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451B0F2C258A01C9005A0EE7 /* tourDetail.swift */; };
+		451B0F30258A01D3005A0EE7 /* tourData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451B0F2F258A01D3005A0EE7 /* tourData.swift */; };
+		451FF8F725B68DBE00D90A87 /* SwiftUIPullToRefresh in Frameworks */ = {isa = PBXBuildFile; productRef = 451FF8F625B68DBE00D90A87 /* SwiftUIPullToRefresh */; };
+		451FF90425B6A4F100D90A87 /* favoriteTourAttractions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451FF90325B6A4F100D90A87 /* favoriteTourAttractions.swift */; };
+		453348A6258C9BDD0026BC32 /* passBusRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453348A5258C9BDD0026BC32 /* passBusRoute.swift */; };
+		45405F23258E13D800612438 /* tmpContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45405F22258E13D800612438 /* tmpContentView.swift */; };
+		45405F26258E140600612438 /* photoSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45405F25258E140600612438 /* photoSelection.swift */; };
+		4544BA2F25AC418E006C671D /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4544BA2E25AC418E006C671D /* SearchBar.swift */; };
+		457C0277259327B700391B00 /* testAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457C0276259327B700391B00 /* testAPI.swift */; };
+		45948E9625A45CC8002E92B0 /* ImagePickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45948E9525A45CC8002E92B0 /* ImagePickerController.swift */; };
+		45B055FB25A03251000DEC8E /* busEstimateArrival.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B055FA25A03251000DEC8E /* busEstimateArrival.swift */; };
+		45B0560125A0481C000DEC8E /* busTimeRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B0560025A0481C000DEC8E /* busTimeRow.swift */; };
+		45B0560625A058DF000DEC8E /* mapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B0560525A058DF000DEC8E /* mapView.swift */; };
+		45B0560F25A05D2F000DEC8E /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45B0560E25A05D2F000DEC8E /* WidgetKit.framework */; };
+		45B0561125A05D2F000DEC8E /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45B0561025A05D2F000DEC8E /* SwiftUI.framework */; };
+		45B0561425A05D2F000DEC8E /* widget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B0561325A05D2F000DEC8E /* widget.swift */; };
+		45B0561625A05D32000DEC8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45B0561525A05D32000DEC8E /* Assets.xcassets */; };
+		45B0561A25A05D32000DEC8E /* widgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 45B0560C25A05D2F000DEC8E /* widgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		45B0C31B258CA17600BF472A /* busData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B0C31A258CA17600BF472A /* busData.swift */; };
+		45B0C320258CA2BF00BF472A /* busList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B0C31F258CA2BF00BF472A /* busList.swift */; };
+		45B0C323258CA2D100BF472A /* busRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B0C322258CA2D100BF472A /* busRow.swift */; };
+		45B0C32A258CA2F600BF472A /* busDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B0C329258CA2F600BF472A /* busDetail.swift */; };
+		45B0C331258CA41A00BF472A /* busListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B0C330258CA41A00BF472A /* busListViewModel.swift */; };
+		59ED095325A5A3A90054562D /* mapNavMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59ED095225A5A3A90054562D /* mapNavMainView.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		45B0561825A05D32000DEC8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 451B0F082589EBDF005A0EE7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45B0560B25A05D2F000DEC8E;
+			remoteInfo = widgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		45B0561E25A05D32000DEC8E /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				45B0561A25A05D32000DEC8E /* widgetExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		451B0F102589EBDF005A0EE7 /* final_00757128.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = final_00757128.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -24,6 +73,31 @@
 		451B0F1C2589EBE2005A0EE7 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		451B0F1F2589EBE2005A0EE7 /* final_00757128.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = final_00757128.xcdatamodel; sourceTree = "<group>"; };
 		451B0F212589EBE2005A0EE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		451B0F28258A01A4005A0EE7 /* tourPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tourPage.swift; sourceTree = "<group>"; };
+		451B0F2C258A01C9005A0EE7 /* tourDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tourDetail.swift; sourceTree = "<group>"; };
+		451B0F2F258A01D3005A0EE7 /* tourData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tourData.swift; sourceTree = "<group>"; };
+		451FF90325B6A4F100D90A87 /* favoriteTourAttractions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = favoriteTourAttractions.swift; sourceTree = "<group>"; };
+		453348A5258C9BDD0026BC32 /* passBusRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = passBusRoute.swift; sourceTree = "<group>"; };
+		45405F22258E13D800612438 /* tmpContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tmpContentView.swift; sourceTree = "<group>"; };
+		45405F25258E140600612438 /* photoSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = photoSelection.swift; sourceTree = "<group>"; };
+		4544BA2E25AC418E006C671D /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		457C0276259327B700391B00 /* testAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testAPI.swift; sourceTree = "<group>"; };
+		45948E9525A45CC8002E92B0 /* ImagePickerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerController.swift; sourceTree = "<group>"; };
+		45B055FA25A03251000DEC8E /* busEstimateArrival.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = busEstimateArrival.swift; sourceTree = "<group>"; };
+		45B0560025A0481C000DEC8E /* busTimeRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = busTimeRow.swift; sourceTree = "<group>"; };
+		45B0560525A058DF000DEC8E /* mapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mapView.swift; sourceTree = "<group>"; };
+		45B0560C25A05D2F000DEC8E /* widgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = widgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		45B0560E25A05D2F000DEC8E /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		45B0561025A05D2F000DEC8E /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		45B0561325A05D2F000DEC8E /* widget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = widget.swift; sourceTree = "<group>"; };
+		45B0561525A05D32000DEC8E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		45B0561725A05D32000DEC8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45B0C31A258CA17600BF472A /* busData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = busData.swift; sourceTree = "<group>"; };
+		45B0C31F258CA2BF00BF472A /* busList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = busList.swift; sourceTree = "<group>"; };
+		45B0C322258CA2D100BF472A /* busRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = busRow.swift; sourceTree = "<group>"; };
+		45B0C329258CA2F600BF472A /* busDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = busDetail.swift; sourceTree = "<group>"; };
+		45B0C330258CA41A00BF472A /* busListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = busListViewModel.swift; sourceTree = "<group>"; };
+		59ED095225A5A3A90054562D /* mapNavMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mapNavMainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +105,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				451FF8F725B68DBE00D90A87 /* SwiftUIPullToRefresh in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45B0560925A05D2F000DEC8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45B0561125A05D2F000DEC8E /* SwiftUI.framework in Frameworks */,
+				45B0560F25A05D2F000DEC8E /* WidgetKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -41,6 +125,8 @@
 			isa = PBXGroup;
 			children = (
 				451B0F122589EBDF005A0EE7 /* final_00757128 */,
+				45B0561225A05D2F000DEC8E /* widget */,
+				45B0560D25A05D2F000DEC8E /* Frameworks */,
 				451B0F112589EBDF005A0EE7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,6 +135,7 @@
 			isa = PBXGroup;
 			children = (
 				451B0F102589EBDF005A0EE7 /* final_00757128.app */,
+				45B0560C25A05D2F000DEC8E /* widgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,6 +143,9 @@
 		451B0F122589EBDF005A0EE7 /* final_00757128 */ = {
 			isa = PBXGroup;
 			children = (
+				451B0F2F258A01D3005A0EE7 /* tourData.swift */,
+				451B0F2C258A01C9005A0EE7 /* tourDetail.swift */,
+				451B0F28258A01A4005A0EE7 /* tourPage.swift */,
 				451B0F132589EBDF005A0EE7 /* final_00757128App.swift */,
 				451B0F152589EBDF005A0EE7 /* ContentView.swift */,
 				451B0F172589EBE2005A0EE7 /* Assets.xcassets */,
@@ -63,6 +153,20 @@
 				451B0F212589EBE2005A0EE7 /* Info.plist */,
 				451B0F1E2589EBE2005A0EE7 /* final_00757128.xcdatamodeld */,
 				451B0F192589EBE2005A0EE7 /* Preview Content */,
+				453348A5258C9BDD0026BC32 /* passBusRoute.swift */,
+				45B0C32F258CA3D800BF472A /* ViewModel */,
+				45B0C32E258CA3A100BF472A /* Model */,
+				45B0C32C258CA37500BF472A /* View */,
+				45405F22258E13D800612438 /* tmpContentView.swift */,
+				45948E9525A45CC8002E92B0 /* ImagePickerController.swift */,
+				45B055FA25A03251000DEC8E /* busEstimateArrival.swift */,
+				45405F25258E140600612438 /* photoSelection.swift */,
+				457C0276259327B700391B00 /* testAPI.swift */,
+				45B0560025A0481C000DEC8E /* busTimeRow.swift */,
+				45B0560525A058DF000DEC8E /* mapView.swift */,
+				59ED095225A5A3A90054562D /* mapNavMainView.swift */,
+				4544BA2E25AC418E006C671D /* SearchBar.swift */,
+				451FF90325B6A4F100D90A87 /* favoriteTourAttractions.swift */,
 			);
 			path = final_00757128;
 			sourceTree = "<group>";
@@ -75,6 +179,51 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		45B0560D25A05D2F000DEC8E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				45B0560E25A05D2F000DEC8E /* WidgetKit.framework */,
+				45B0561025A05D2F000DEC8E /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		45B0561225A05D2F000DEC8E /* widget */ = {
+			isa = PBXGroup;
+			children = (
+				45B0561325A05D2F000DEC8E /* widget.swift */,
+				45B0561525A05D32000DEC8E /* Assets.xcassets */,
+				45B0561725A05D32000DEC8E /* Info.plist */,
+			);
+			path = widget;
+			sourceTree = "<group>";
+		};
+		45B0C32C258CA37500BF472A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				45B0C31F258CA2BF00BF472A /* busList.swift */,
+				45B0C322258CA2D100BF472A /* busRow.swift */,
+				45B0C329258CA2F600BF472A /* busDetail.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		45B0C32E258CA3A100BF472A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				45B0C31A258CA17600BF472A /* busData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		45B0C32F258CA3D800BF472A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				45B0C330258CA41A00BF472A /* busListViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -85,15 +234,37 @@
 				451B0F0C2589EBDF005A0EE7 /* Sources */,
 				451B0F0D2589EBDF005A0EE7 /* Frameworks */,
 				451B0F0E2589EBDF005A0EE7 /* Resources */,
+				45B0561E25A05D32000DEC8E /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45B0561925A05D32000DEC8E /* PBXTargetDependency */,
+			);
+			name = final_00757128;
+			packageProductDependencies = (
+				451FF8F625B68DBE00D90A87 /* SwiftUIPullToRefresh */,
+			);
+			productName = final_00757128;
+			productReference = 451B0F102589EBDF005A0EE7 /* final_00757128.app */;
+			productType = "com.apple.product-type.application";
+		};
+		45B0560B25A05D2F000DEC8E /* widgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45B0561B25A05D32000DEC8E /* Build configuration list for PBXNativeTarget "widgetExtension" */;
+			buildPhases = (
+				45B0560825A05D2F000DEC8E /* Sources */,
+				45B0560925A05D2F000DEC8E /* Frameworks */,
+				45B0560A25A05D2F000DEC8E /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = final_00757128;
-			productName = final_00757128;
-			productReference = 451B0F102589EBDF005A0EE7 /* final_00757128.app */;
-			productType = "com.apple.product-type.application";
+			name = widgetExtension;
+			productName = widgetExtension;
+			productReference = 45B0560C25A05D2F000DEC8E /* widgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -107,6 +278,9 @@
 					451B0F0F2589EBDF005A0EE7 = {
 						CreatedOnToolsVersion = 12.3;
 					};
+					45B0560B25A05D2F000DEC8E = {
+						CreatedOnToolsVersion = 12.3;
+					};
 				};
 			};
 			buildConfigurationList = 451B0F0B2589EBDF005A0EE7 /* Build configuration list for PBXProject "final_00757128" */;
@@ -118,11 +292,15 @@
 				Base,
 			);
 			mainGroup = 451B0F072589EBDE005A0EE7;
+			packageReferences = (
+				451FF8F525B68DBE00D90A87 /* XCRemoteSwiftPackageReference "SwiftUIPullToRefresh" */,
+			);
 			productRefGroup = 451B0F112589EBDF005A0EE7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				451B0F0F2589EBDF005A0EE7 /* final_00757128 */,
+				45B0560B25A05D2F000DEC8E /* widgetExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -137,6 +315,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		45B0560A25A05D2F000DEC8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45B0561625A05D32000DEC8E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -144,14 +330,49 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45B0560125A0481C000DEC8E /* busTimeRow.swift in Sources */,
+				451B0F2D258A01C9005A0EE7 /* tourDetail.swift in Sources */,
+				451FF90425B6A4F100D90A87 /* favoriteTourAttractions.swift in Sources */,
+				45405F26258E140600612438 /* photoSelection.swift in Sources */,
+				457C0277259327B700391B00 /* testAPI.swift in Sources */,
 				451B0F1D2589EBE2005A0EE7 /* Persistence.swift in Sources */,
 				451B0F162589EBDF005A0EE7 /* ContentView.swift in Sources */,
+				451B0F29258A01A4005A0EE7 /* tourPage.swift in Sources */,
+				45948E9625A45CC8002E92B0 /* ImagePickerController.swift in Sources */,
+				45B055FB25A03251000DEC8E /* busEstimateArrival.swift in Sources */,
+				4544BA2F25AC418E006C671D /* SearchBar.swift in Sources */,
+				45B0560625A058DF000DEC8E /* mapView.swift in Sources */,
+				45B0C320258CA2BF00BF472A /* busList.swift in Sources */,
 				451B0F202589EBE2005A0EE7 /* final_00757128.xcdatamodeld in Sources */,
+				45B0C31B258CA17600BF472A /* busData.swift in Sources */,
+				453348A6258C9BDD0026BC32 /* passBusRoute.swift in Sources */,
+				45405F23258E13D800612438 /* tmpContentView.swift in Sources */,
+				45B0C331258CA41A00BF472A /* busListViewModel.swift in Sources */,
+				45B0C323258CA2D100BF472A /* busRow.swift in Sources */,
 				451B0F142589EBDF005A0EE7 /* final_00757128App.swift in Sources */,
+				451B0F30258A01D3005A0EE7 /* tourData.swift in Sources */,
+				45B0C32A258CA2F600BF472A /* busDetail.swift in Sources */,
+				59ED095325A5A3A90054562D /* mapNavMainView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45B0560825A05D2F000DEC8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45B0561425A05D2F000DEC8E /* widget.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		45B0561925A05D32000DEC8E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45B0560B25A05D2F000DEC8E /* widgetExtension */;
+			targetProxy = 45B0561825A05D32000DEC8E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		451B0F222589EBE2005A0EE7 /* Debug */ = {
@@ -273,6 +494,7 @@
 		451B0F252589EBE2005A0EE7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -294,6 +516,7 @@
 		451B0F262589EBE2005A0EE7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -307,6 +530,46 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "KevinKai.final-00757128";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		45B0561C25A05D32000DEC8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = widget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "KevinKai.final-00757128.widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		45B0561D25A05D32000DEC8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = widget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "KevinKai.final-00757128.widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -333,7 +596,35 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		45B0561B25A05D32000DEC8E /* Build configuration list for PBXNativeTarget "widgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45B0561C25A05D32000DEC8E /* Debug */,
+				45B0561D25A05D32000DEC8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		451FF8F525B68DBE00D90A87 /* XCRemoteSwiftPackageReference "SwiftUIPullToRefresh" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/muhammedtanriverdi/SwiftUIPullToRefresh";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		451FF8F625B68DBE00D90A87 /* SwiftUIPullToRefresh */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 451FF8F525B68DBE00D90A87 /* XCRemoteSwiftPackageReference "SwiftUIPullToRefresh" */;
+			productName = SwiftUIPullToRefresh;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		451B0F1E2589EBE2005A0EE7 /* final_00757128.xcdatamodeld */ = {
